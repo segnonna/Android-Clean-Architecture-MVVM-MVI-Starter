@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="1.7">
+      <module name="AndroidCleanArchMVVMMMVIStarter.app" target="1.8" />
+      <module name="AndroidCleanArchMVVMMMVIStarter.buildSrc" target="1.8" />
+      <module name="AndroidCleanArchMVVMMMVIStarter.presentation" target="1.8" />
+      <module name="AndroidCleanArchMVVMMMVIStarter.remote" target="1.8" />
+      <module name="AndroidCleanArchMVVMMVIStarter.app" target="1.8" />
+      <module name="AndroidCleanArchMVVMMVIStarter.buildSrc" target="1.8" />
+      <module name="AndroidCleanArchMVVMMVIStarter.presentation" target="1.8" />
+      <module name="AndroidCleanArchMVVMMVIStarter.remote" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
