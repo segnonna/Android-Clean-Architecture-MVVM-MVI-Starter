@@ -33,9 +33,15 @@ This repo will get you a starter sample of clean architecture by using Kotlin, F
 With this architecture, i want to achieve  scalability, maintanibility, testability, usability, extensibility, safety and security.
 This repo follows the principle of Clean archtecture (also called onion because of the circle representation of the layer) and MVI
 
+The Clean Architecture has been formalized by Robert C. Martin in 2012. It's based on the SOLID principles (presented for the first time in early 2000).
+
 ![Onion architecture](https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2016/11/Graph-1.png)
 
 ### SOLID principles
+Enjoy with this links
+* [The SOLID Principles, Explained with Motivational Posters](https://docs.microsoft.com/en-us/archive/blogs/cdndevs/the-solid-principles-explained-with-motivational-posters)
+* [The SOLID Principles and Kotlin](https://blog.joshua-greenwood.com/the-solid-principles-and-kotlin/)
+* [Exploring S.O.L.I.D Principle in Android](https://proandroiddev.com/exploring-s-o-l-i-d-principle-in-android-a90947f57cf0)
 
 
 
