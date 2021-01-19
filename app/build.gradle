@@ -9,7 +9,7 @@ android {
 
     defaultConfig {
         applicationId "hos.houns.androidcleanarchmvvmmmvistarter"
-        minSdkVersion 16
+        minSdkVersion 21
         targetSdkVersion 29
         versionCode 1
         versionName "1.0"
@@ -35,6 +35,17 @@ android {
         exclude 'META-INF/LICENSE.md'
         exclude 'META-INF/LICENSE-notice.md'
     }
+
+    jacoco {
+        buildToolsVersion ="0.8.5"
+    }
+
+    testOptions {
+        unitTests.includeAndroidResources = true
+        unitTests.returnDefaultValues = true
+    }
+
+
 }
 
 dependencies {

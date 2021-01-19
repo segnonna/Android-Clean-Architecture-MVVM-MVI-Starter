@@ -25,11 +25,12 @@ dependencies {
     api(CommonsDependencies.gsonLib)
     implementation(CommonsDependencies.gsonConverterLib)
     implementation(CommonsDependencies.okhttLoggingInterceptorLib)
-    /* implementation "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version"
-       implementation 'androidx.core:core-ktx:1.2.0'
-       implementation 'androidx.appcompat:appcompat:1.2.0'
-       implementation 'com.google.android.material:material:1.1.0'
-       testImplementation 'junit:junit:4.+'
-       androidTestImplementation 'androidx.test.ext:junit:1.1.1'
-       androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'*/
+    testImplementation(CommonsDependencies.mockkLib)
+    testImplementation(CommonsDependencies.junitEngineLib)
+    testImplementation(CommonsDependencies.junitAPiLib)
+    testImplementation(CommonsDependencies.junitParamsLib)
+    testImplementation(CommonsDependencies.kluentLib)
+    testImplementation(CommonsDependencies.junitLib)
+    runtimeOnly(CommonsDependencies.junitVintageEngineLib)
+    runtimeOnly(CommonsDependencies.junitJupiterEngineLib)
 }

@@ -37,4 +37,19 @@ object CommonsDependencies {
     const val gsonConverterLib = "com.squareup.retrofit2:converter-gson:2.5.0"
     const val gsonLib = "com.google.code.gson:gson:2.8.6"
     const val okhttLoggingInterceptorLib = "com.squareup.okhttp3:logging-interceptor:3.8.0"
+
+    const val materialLib = "com.google.android.material:material:1.2.1"
+    const val constraintLayoutLib = "androidx.constraintlayout:constraintlayout:2.0.4"
+    const val jacoco = "org.jacoco:org.jacoco.core:0.8.5"
+
+    const val epoxy = "com.airbnb.android:epoxy:4.3.1"
+    const val epoxyProcessor = "com.airbnb.android:epoxy-processor:4.3.1"
+
+    /* const val composeUILib="androidx.compose.ui:ui:1.0.0-alpha09"
+     const val composeMaterialLib ="androidx.compose.material:material:1.0.0-alpha09"
+     const val composeUiToolLib ="androidx.ui:ui-tooling:1.0.0-alpha09"
+     const val composeMaterialIconLib = "androidx.compose.material:material-icons-extended:1.0.0-alpha09"
+     const val composeNavigationLib = "androidx.navigation:navigation-compose:1.0.0-alpha09"*/
+
+
 }
