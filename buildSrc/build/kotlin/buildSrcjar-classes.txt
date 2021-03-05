@@ -1,1 +1,0 @@
-/Users/sadatetchamouza/AndroidStudioProjects/Android-Clean-Architecture-MVVM-MVI-Starter/buildSrc/build/classes/kotlin/main/CommonsDependencies.class
