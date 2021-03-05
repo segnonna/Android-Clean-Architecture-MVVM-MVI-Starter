@@ -1,7 +1,7 @@
 *.iml
 .gradle
 /local.properties
-/.idea/*
+/.idea
 .DS_Store
 /build
 /captures
@@ -9,3 +9,6 @@
 .cxx
 local.properties
 /buildSrc/build/*
+/gradle
+gradlew
+gradlew.bat
