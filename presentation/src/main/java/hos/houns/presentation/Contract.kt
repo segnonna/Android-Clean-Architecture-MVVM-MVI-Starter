@@ -7,6 +7,7 @@ import hos.houns.presentation.base.BaseViewState
 
 
 sealed class GetPostState : BaseViewState {
+    object InitialState : GetPostState()
     object LoadingState : GetPostState()
     data class ErrorState(val failure: Failure) : GetPostState()
     data class SuccessState(val data: List<PostUiModel>) : GetPostState()

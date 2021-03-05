@@ -64,4 +64,15 @@ dependencies {
 
     implementation("androidx.activity:activity-ktx:1.2.0-rc01")
 
+    testImplementation(CommonsDependencies.mockkLib)
+    testImplementation(CommonsDependencies.junitEngineLib)
+    testImplementation(CommonsDependencies.junitAPiLib)
+    testImplementation(CommonsDependencies.junitParamsLib)
+    testRuntimeOnly(CommonsDependencies.junitJupiterEngineLib)
+    testImplementation(CommonsDependencies.kluentLib)
+    testImplementation(CommonsDependencies.junitLib)
+    testRuntimeOnly(CommonsDependencies.junitVintageEngineLib)
+    testRuntimeOnly(CommonsDependencies.kotlinReflect)
+    testImplementation(CommonsDependencies.kotlinxCoroutinesTestLib)
+
 }
