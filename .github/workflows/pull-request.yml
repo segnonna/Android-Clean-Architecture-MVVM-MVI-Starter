@@ -1,0 +1,36 @@
+# This is a basic workflow to help you get started with Actions
+
+name: Pull Request WorkFlow
+
+# Controls when the action will run. 
+on:
+  pull_request:
+    branches:
+      -main
+  push:
+    branches:
+      - main
+    tags-ignore:
+      - '*'
+
+## 2
+jobs:
+  ## 3
+  unit_tests:
+    runs-on: [ubuntu-latest]
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Unit tests
+        run: ./gradlew test
+  ## 4
+  #android_tests:
+  #  runs-on: [ macos-latest ]
+  #  steps:
+  #   - uses: actions/checkout@v2
+  #
+  #   - name: Instrumentation Tests
+  #     uses: reactivecircus/android-emulator-runner@v2
+  #     with:
+  #       api-level: 29
+  #       script: ./gradlew connectedAndroidTest
