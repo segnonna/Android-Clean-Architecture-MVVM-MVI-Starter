@@ -33,7 +33,7 @@ This repo will get you a starter sample of clean architecture by using Kotlin, F
 With this architecture, i want to achieve  scalability, maintanibility, testability, usability, extensibility, safety and security.
 This repo follows the principle of Clean archtecture (also called onion because of the circle representation of the layer) and MVI
 
-The Clean Architecture has been formalized by Robert C. Martin in 2012. It's based on the SOLID principles (presented for the first time in early 2000).
+The Clean Architecture has been formalized by Robert C. Martin (aka uncle bub) in 2012. It's based on the SOLID principles (presented for the first time in early 2000).
 
 ![Onion architecture](https://mk0fivefiveagen2f17j.kinstacdn.com/wp-content/uploads/2016/11/Graph-1.png)
 
